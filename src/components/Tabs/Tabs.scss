@@ -1,0 +1,24 @@
+.tabs {
+  background: #fff;
+  display: flex;
+  margin-bottom: 16px;
+
+  &__element {
+    text-align: center;
+    width: 168px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dfe5ec;
+    color: #4A4A4A;
+    cursor: pointer;
+  }
+
+  &__element_active {
+    background: #2196f3;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #2196f3;
+  }
+}

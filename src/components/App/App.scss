@@ -1,0 +1,13 @@
+.app {
+  font-family: sans-serif;
+  background: #f3f7fa;
+  min-height: 100vh;
+  padding: 20px;
+
+  &__main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}
